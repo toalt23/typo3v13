@@ -101,4 +101,3 @@ return [
         'sitename' => 'New TYPO3 site',
     ],
 ];
-
