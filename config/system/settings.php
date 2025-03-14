@@ -2,6 +2,7 @@
 return [
     'BE' => [
         'debug' => false,
+        'installToolPassword' => '$P$Cbp90UttdtIKELNrDGjy4tDxh3uu9D/',
         'passwordHashing' => [
             'className' => 'TYPO3\\CMS\\Core\\Crypto\\PasswordHashing\\Argon2iPasswordHash',
             'options' => [],
@@ -98,6 +99,6 @@ return [
         'features' => [
             'frontend.cache.autoTagging' => true,
         ],
-        'sitename' => 'New TYPO3 site',
+        'sitename' => 'TYPO3 Version 13',
     ],
 ];

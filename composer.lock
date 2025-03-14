@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a751fdadce06bf32e23bd53515ca93ba",
+    "content-hash": "9a05896dae76aaa91eb1bb8ea2cc2596",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -4891,6 +4891,36 @@
             "time": "2025-01-07T12:55:42+00:00"
         },
         {
+            "name": "tobias/sitepackage",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./packages/sitepackage",
+                "reference": "81adcaf57e618d594fb0109c7071f587d5eb0263"
+            },
+            "require": {
+                "typo3/cms-core": "^12.4 || ^13.4"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "sitepackage"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MyVendor\\MyExtension\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Base Site Package - Tobias Alt",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "typo3/class-alias-loader",
             "version": "v1.2.0",
             "source": {
@@ -6871,7 +6901,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "tobias/sitepackage": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
