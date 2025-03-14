@@ -1,0 +1,8 @@
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/setup.typoscript'
+@import 'EXT:fluid_styled_content/Configuration/TypoScript/Styling/setup.typoscript'
+
+@import 'EXT:sitepackage/Configuration/TypoScript/Setup/page.typoscript'
+@import 'EXT:sitepackage/Configuration/TypoScript/Setup/lib.typoscript'
+
+#show correct error codes in the frontend
+config.contentObjectExceptionHandler = 0
