@@ -1,6 +1,9 @@
 page = PAGE
 page {
+    typeNum = 0
+
     10 = FLUIDTEMPLATE
+
     10 {
         templateName = Default
 
