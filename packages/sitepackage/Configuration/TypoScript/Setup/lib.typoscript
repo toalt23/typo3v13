@@ -21,3 +21,14 @@ lib.dynamicContent {
     }
     90 = RESTORE_REGISTER
 }
+
+lib.footerContent = CONTENT
+lib.footerContent {
+      table = tt_content
+      select {
+         pidInList={$page.footer.pid}
+         orderBy = sorting
+         where = {#colPos}=0
+         where.insertData = 1
+      }
+}

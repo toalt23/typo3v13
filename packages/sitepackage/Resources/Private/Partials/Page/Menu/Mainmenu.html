@@ -1,0 +1,11 @@
+<nav>
+    <f:if condition="{menu -> f:count()}">
+        <ul>
+            <f:for each="{menu}" as="item">
+                <li>
+                    <a href="{item.link}" target="{item.target}">{item.title}</a>
+                </li>
+            </f:for>
+        </ul>
+    </f:if>
+</nav>
