@@ -10,7 +10,7 @@ use Tobias\Sitepackage\Domain\Repository\PersonRepository;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 
 /**
- * Controller for the main "Tea" FE plugin.
+ * Controller for the main "Person" FE plugin.
  */
 class PersonController extends ActionController
 {
