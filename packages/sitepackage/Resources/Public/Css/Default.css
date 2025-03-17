@@ -24,3 +24,10 @@ p {
     border-radius: 6px;
     border: 1px solid #ddd;
 }
+
+.img-fluid {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
