@@ -27,15 +27,15 @@ p {
 
 .logo {
     display: flex;
-    justify-content: center;
-    flex-basis: auto;
+    padding-left: 50px;
+    flex-basis: 50%;
     align-items: center;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .t3-navbar {
     display: flex;
-    flex-basis: auto;
+    flex-basis: 50%;
     justify-content: center;
     align-items: center;
     color: #ddd;
