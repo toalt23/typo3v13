@@ -21,6 +21,6 @@ p {
     height: 70px;
     background: black;
     color: #ddd;
-    border-radius: 0 0 6px 6px;
-    border: 1px solid #f50;
+    border-radius: 6px;
+    border: 1px solid #ddd;
 }
