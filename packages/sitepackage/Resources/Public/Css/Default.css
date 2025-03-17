@@ -28,7 +28,6 @@ p {
 .logo {
     display: flex;
     justify-content: center;
-    min-width: 30%;
     align-items: center;
     font-size: 24px;
 }
