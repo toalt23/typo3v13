@@ -33,6 +33,10 @@ p {
     font-size: 28px;
 }
 
+.logo a {
+    color: #ddd;
+}
+
 .t3-navbar {
     display: flex;
     flex-basis: 50%;
