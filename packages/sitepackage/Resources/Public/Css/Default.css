@@ -25,3 +25,14 @@ p {
     border-radius: 6px;
     border: 1px solid #ddd;
 }
+
+.logo {
+    display: flex;
+    justify-content: center;
+    min-width: 30%;
+    align-items: center;
+}
+
+.t3-nav-item {
+    display: inline-block;
+}
