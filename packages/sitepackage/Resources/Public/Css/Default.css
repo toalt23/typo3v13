@@ -33,6 +33,14 @@ p {
     align-items: center;
 }
 
+.t3-navbar {
+    display: flex;
+    justify-content: center;
+    min-width: 30%;
+    align-items: center;
+    color: #ddd;
+}
+
 .t3-nav-item {
     display: inline-block;
 }
