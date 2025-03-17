@@ -3,7 +3,7 @@ html {
 }
 
 p {
-    color: whitesmoke;
+    color: #ddd;
 }
 
 .page {
@@ -23,6 +23,6 @@ p {
     color: white;
     border-radius: 0 0 6px 6px;
     border-bottom: 1px solid #f50;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+    border-left: 1px solid #f50;
+    border-right: 1px solid #f50;
 }
