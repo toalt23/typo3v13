@@ -41,9 +41,7 @@ p {
 }
 
 .t3-ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    all: unset;
 }
 
 .t3-nav-item {
