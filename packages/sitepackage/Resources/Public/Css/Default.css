@@ -12,16 +12,16 @@ p {
 
 .t3-header {
     position: sticky;
-    top: 18px;
+    top: 10px;
     width: 100%;
     background: transparent;
 }
 
 .t3-bar {
-    height: 80px;
+    height: 70px;
     background: black;
     color: white;
-    margin-left: 125px;
-    margin-right: 125px;
-    border-radius: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 8px;
 }
