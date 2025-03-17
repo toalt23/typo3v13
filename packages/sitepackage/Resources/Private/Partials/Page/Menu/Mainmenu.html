@@ -1,7 +1,7 @@
 <div class="t3-navbar">
     <nav>
         <f:if condition="{menu -> f:count()}">
-            <ul>
+            <ul class="t3-ul">
                 <f:for each="{menu}" as="item">
                     <li class="t3-nav-item">
                         <a href="{item.link}" target="{item.target}">{item.title}</a>

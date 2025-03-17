@@ -36,9 +36,14 @@ p {
 .t3-navbar {
     display: flex;
     justify-content: center;
-    min-width: 30%;
     align-items: center;
     color: #ddd;
+}
+
+.t3-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .t3-nav-item {
