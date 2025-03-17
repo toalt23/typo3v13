@@ -18,6 +18,7 @@ p {
 }
 
 .t3-bar {
+    display: grid;
     height: 70px;
     background: black;
     color: #ddd;
