@@ -47,3 +47,11 @@ p {
 .t3-nav-item {
     display: inline-block;
 }
+
+.t3-nav-item a {
+    color: #ddd;
+}
+
+.t3-nav-item a:hover {
+    color: #f50;
+}
