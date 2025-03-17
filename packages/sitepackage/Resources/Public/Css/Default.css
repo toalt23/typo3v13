@@ -16,5 +16,13 @@ p {
     width: 100%;
     height: 100px;
     background: transparent;
-    border-bottom: black 1px solid;
+}
+
+.t3-bar {
+    background: black;
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 40px;
+    border-radius: 15px;
 }
