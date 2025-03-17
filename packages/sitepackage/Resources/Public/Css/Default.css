@@ -22,4 +22,5 @@ p {
     background: black;
     color: white;
     border-radius: 0 0 6px 6px;
+    border-bottom: 1px solid #ddd;;
 }
