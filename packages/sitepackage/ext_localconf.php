@@ -13,7 +13,7 @@ ExtensionUtility::configurePlugin(
     // arbitrary, but unique plugin name (not visible in the backend)
     'PersonPlugin',
     // all actions
-    [\Tobias\Sitepackage\Controller\PersonController::class => 'index',
+    [\Tobias\Sitepackage\Controller\PersonController::class => 'index'],
     // non-cacheable actions
     [\Tobias\Sitepackage\Controller\PersonController::class => 'index'],
     ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT,
