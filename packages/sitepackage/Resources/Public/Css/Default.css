@@ -12,7 +12,7 @@ p {
 
 .t3-header {
     position: sticky;
-    top: 0;
+    top: 22px;
     width: 100%;
     background: transparent;
 }
@@ -21,7 +21,6 @@ p {
     height: 100px;
     background: black;
     color: white;
-    margin-top: 25px;
     margin-left: 125px;
     margin-right: 125px;
 }
