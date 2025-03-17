@@ -6,5 +6,4 @@ services:
 
   Tobias\Sitepackage\:
     resource: '../Classes/*'
-
-
+    exclude: '../Classes/Domain/Model/*'
