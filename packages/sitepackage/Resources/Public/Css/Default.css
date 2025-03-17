@@ -46,6 +46,8 @@ p {
 
 .t3-nav-item {
     display: inline-block;
+    font-size: 16px;
+    padding: 0 25px;
 }
 
 .t3-nav-item a {
@@ -54,4 +56,5 @@ p {
 
 .t3-nav-item a:hover {
     color: #f50;
+    text-decoration: none;
 }
