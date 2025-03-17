@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-
+use Tobias\Sitepackage\Controller\PersonController;
 use TYPO3\CMS\Extbase\Utility\ExtensionUtility;
 
 defined('TYPO3') or die();
@@ -13,8 +13,8 @@ ExtensionUtility::configurePlugin(
     // arbitrary, but unique plugin name (not visible in the backend)
     'PersonPlugin',
     // all actions
-    [\Tobias\Sitepackage\Controller\PersonController::class => 'index'],
+    [PersonController::class => 'index'],
     // non-cacheable actions
-    [\Tobias\Sitepackage\Controller\PersonController::class => 'index'],
+    [PersonController::class => 'index'],
     ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT,
 );
