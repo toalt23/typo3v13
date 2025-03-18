@@ -1,46 +1,46 @@
 
-    <h2>
-        Personen Datenbank
-    </h2>
+<h2>
+    Personen Datenbank
+</h2>
 
-    <f:if condition="{persons}">
-        <f:then>
-            <table class="table table-striped table-hover">
+<f:if condition="{persons}">
+    <f:then>
+        <table class="table table-striped table-hover">
+            <tr>
+                <th scope="col">
+                    Personen-ID
+                </th>
+                <th scope="col">
+                    Vorname
+                </th>
+                <th scope="col">
+                    Nachname
+                </th>
+                <th scope="col">
+                    Email
+                </th>
+            </tr>
+            <f:for each="{persons}" as="human">
                 <tr>
-                    <th scope="col">
-                        Personen-ID
-                    </th>
-                    <th scope="col">
-                        Vorname
-                    </th>
-                    <th scope="col" colspan="2">
-                        Nachname
-                    </th>
-                    <th scope="col" colspan="2">
-                        Email
-                    </th>
+                    <td>
+                        {human.uid}
+                    </td>
+                    <td>
+                        {human.firstname}
+                    </td>
+                    <td>
+                        {human.lastname}
+                    </td>
+                    <td>
+                        {human.email}
+                    </td>
                 </tr>
-                <f:for each="{persons}" as="human">
-                    <tr>
-                        <td>
-                            {human.uid}
-                        </td>
-                        <td>
-                            {human.firstname}
-                        </td>
-                        <td>
-                            {human.lastname}
-                        </td>
-                        <td>
-                            {human.email}
-                        </td>
-                    </tr>
-                </f:for>
-            </table>
-        </f:then>
-        <f:else>
-            <p class="alert alert-info" role="alert">
-                Data could not be loaded
-            </p>
-        </f:else>
-    </f:if>
+            </f:for>
+        </table>
+    </f:then>
+    <f:else>
+        <p class="alert alert-info" role="alert">
+            Data could not be loaded
+        </p>
+    </f:else>
+</f:if>
