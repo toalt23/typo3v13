@@ -15,6 +15,6 @@ ExtensionUtility::configurePlugin(
     // all actions
     [PersonController::class => 'index,new'],
     // non-cacheable actions
-    [PersonController::class => 'index,new'],
+    [PersonController::class => 'new'],
     ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT,
 );
