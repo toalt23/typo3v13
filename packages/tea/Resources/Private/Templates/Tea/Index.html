@@ -2,6 +2,8 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
 <f:layout name="Default"/>
 
+<f:debug>{teas}</f:debug>
+
 <f:section name="main">
     <h2>
         <f:translate key="plugin.tea.heading"/>
@@ -20,7 +22,6 @@
         </thead>
         <tbody>
         <f:for each="{teas}" as="tea">
-            <f:debug>{tea}</f:debug>
             <tr>
                 <td>
                     {tea.uid}
