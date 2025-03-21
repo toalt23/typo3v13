@@ -6,6 +6,7 @@
   "require": {
     "typo3/cms-core": "^12.4 || ^13.4"
   },
+  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "Tobias\\Tea\\": "Classes/"
