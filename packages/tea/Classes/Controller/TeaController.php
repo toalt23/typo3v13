@@ -21,8 +21,6 @@ class TeaController extends ActionController
     public function indexAction(): ResponseInterface
     {
         $teas = $this->teaRepository->findAll();
-        var_dump($teas);
-        die();
         $this->view->assign('teas', $teas);
         return $this->htmlResponse();
     }
