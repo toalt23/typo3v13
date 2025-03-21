@@ -1,0 +1,23 @@
+plugin.tx_tea {
+  view {
+    templateRootPaths {
+      0 = EXT:tea/Resources/Private/Templates/
+    }
+
+    partialRootPaths {
+      0 = EXT:tea/Resources/Private/Partials/
+    }
+
+    layoutRootPaths {
+      0 = EXT:tea/Resources/Private/Layouts/
+    }
+  }
+
+  persistence {
+    storagePid = {$plugin.tx_tea.persistence.storagePid}
+  }
+
+  settings {
+    singleViewPageUid = {$plugin.tx_tea.settings.singleViewPageUid}
+  }
+}
