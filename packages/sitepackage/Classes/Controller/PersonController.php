@@ -30,8 +30,8 @@ class PersonController extends ActionController
     public function newAction(): ResponseInterface
     {
         $input = $this->request->getArguments()["person"];
-        $person = new Person($input["firstNameInput"],$input["lastNameInput"],$input["emailInput"]);
         if($input) {
+            $person = new Person($input["firstNameInput"],$input["lastNameInput"],$input["emailInput"]);
             $this->personRepository->add($person);
         }
         return $this->htmlResponse();
