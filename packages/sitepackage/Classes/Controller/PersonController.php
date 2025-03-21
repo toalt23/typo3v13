@@ -26,4 +26,11 @@ class PersonController extends ActionController
         return $this->htmlResponse();
     }
 
+    public function newAction(): ResponseInterface
+    {
+        $input = $this->request->getArguments()["person"];
+        var_dump($input);
+        return $this->htmlResponse();
+    }
+
 }
