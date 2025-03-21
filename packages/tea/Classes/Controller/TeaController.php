@@ -20,7 +20,8 @@ class TeaController extends ActionController
 
     public function indexAction(): ResponseInterface
     {
-        $this->view->assign('teas', $this->teaRepository->findAll());
+        $teas = $this->teaRepository->findAll();
+        $this->view->assign('teas', $teas);
         return $this->htmlResponse();
     }
 
