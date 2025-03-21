@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a05896dae76aaa91eb1bb8ea2cc2596",
+    "content-hash": "7bd89b1ec597f3cb308befab69697766",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -4921,6 +4921,36 @@
             }
         },
         {
+            "name": "tobias/tea",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./packages/tea",
+                "reference": "07fa20325ae332571c2d960930c96545d5038539"
+            },
+            "require": {
+                "typo3/cms-core": "^12.4 || ^13.4"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "tea"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tobias\\Tea\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Example Extensions for Teas",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "typo3/class-alias-loader",
             "version": "v1.2.0",
             "source": {
@@ -6902,12 +6932,13 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "tobias/sitepackage": 20
+        "tobias/sitepackage": 20,
+        "tobias/tea": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.2.0"
     },
