@@ -8,6 +8,7 @@ namespace Tobias\Sitepackage\Controller;
 use Psr\Http\Message\ResponseInterface;
 use Tobias\Sitepackage\Domain\Repository\PersonRepository;
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
+use Tobias\Sitepackage\Domain\Model\Person;
 
 /**
  * Controller for the main "Person" FE plugin.
@@ -29,7 +30,10 @@ class PersonController extends ActionController
     public function newAction(): ResponseInterface
     {
         $input = $this->request->getArguments()["person"];
-        var_dump($input);
+        $person = new Person($input["firstNameInput"],$input["lastNameInput"],$input["emailInput"]);
+        if($input) {
+            $this->personRepository->add($person);
+        }
         return $this->htmlResponse();
     }
 
