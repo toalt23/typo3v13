@@ -29,7 +29,7 @@ class PersonController extends ActionController
 
     public function newAction(): ResponseInterface
     {
-        $input = $this->request->getArguments()["person"];
+        $input = $this->request->getQueryParams()["person"];
         if($input) {
             $person = new Person($input["firstNameInput"],$input["lastNameInput"],$input["emailInput"]);
             $this->personRepository->add($person);
