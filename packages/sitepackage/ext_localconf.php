@@ -13,8 +13,8 @@ ExtensionUtility::configurePlugin(
     // arbitrary, but unique plugin name (not visible in the backend)
     'PersonPlugin',
     // all actions
-    [PersonController::class => 'index'],
+    [PersonController::class => 'index',PersonController::class => 'new'],
     // non-cacheable actions
-    [PersonController::class => 'index'],
+    [PersonController::class => 'index', PersonController::class => 'new'],
     ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT,
 );
